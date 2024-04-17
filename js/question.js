@@ -46,3 +46,7 @@ function nextQuestion(choiceNumber){
   renderQuestion()
 }
 renderQuestion()
+
+function showResultPage(){ // 쿼리 스트링을 만들어 결과페이지 호출
+  location.href = './results.html?mbti=' + mbti
+ }
